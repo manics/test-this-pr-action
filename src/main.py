@@ -56,9 +56,9 @@ FORK_OWNER = pr_info.head.user.login
 # Set Pull Request branch name
 PR_BRANCH_NAME = pr_info.head.ref
 
-# Set git config
-_ = run_cmd(["git", "config", "user.name", AUTHOR_NAME])
-_ = run_cmd(["git", "config", "user.email", AUTHOR_EMAIL])
+# # Set git config
+# _ = run_cmd(["git", "config", "user.name", AUTHOR_NAME])
+# _ = run_cmd(["git", "config", "user.email", AUTHOR_EMAIL])
 
 # Clone the parent repo
 _ = run_cmd(
