@@ -33,7 +33,7 @@ _ = run_cmd(
     [
         "git",
         "clone",
-        f"https://{ACCESS_TOKEN}:x-oauth-basic@github.com/{REPOSITORY}.git",
+        f"https://{ACCESS_TOKEN}@github.com/{REPOSITORY}.git",
     ]
 )
 
